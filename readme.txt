@@ -1,1 +1,1 @@
-Website for BVICAM's updoming hackathon.
+Website for BVICAM's upcoming hackathon.
