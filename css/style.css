@@ -31,6 +31,70 @@ body {
   font-style: normal;
 }
 
+.countdown-container {
+  color: white;
+  display: flex;
+  width: 100%;
+  max-width: 100%;
+  justify-content: space-between;
+  gap:0.5rem;
+  padding: 1rem;
+  /* padding-right: 10px; */  
+}
+
+.days-container,
+.hours-container,
+.minutes-container, 
+.seconds-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* background-color: rgba(0, 0, 0, 0.534);
+  border: 5px solid #d8c3c24d; */
+  width: 140px;
+  height: 140px;
+  border-radius: 120px;
+}
+
+.days,
+.hours,
+.minutes,
+.seconds {
+  font-size: 3rem; 
+  margin: 10px 0;
+  font-weight: 720;
+
+}
+
+
+.days-label,
+.hours-label,
+.minutes-label,
+.seconds-label {
+  text-transform: uppercase;
+  margin-bottom: 5px;
+  color:white;
+  font-weight:600px;
+  font-size:1.5rem;
+}
+
+@media (max-width: 800px) {
+  
+  .countdown-container {
+    max-width: 100%;
+  }
+  
+  .days-container,
+  .hours-container,
+  .minutes-container, 
+  .seconds-container {
+    font-size: 0.8em;
+    width: 100px;
+    height: 100px;
+  }
+}
+
 /* line 25, ../../Arafath/CL/December/236. Event-02/HTML/scss/theme-default.scss */
 .img {
   max-width: 100%;
@@ -1478,7 +1542,8 @@ h3 {
 
 /* line 1, ../../Arafath/CL/December/236. Event-02/HTML/scss/_slider.scss */
 .slider_bg_1 {
-  background-image: url(../img/banner/banner.png);
+  /* background-image: url(../img/banner/banner.png); */
+  background-image: url(https://cliply.co/wp-content/uploads/2019/06/401906190_ITS_COMPLICATED_400px.gif);
 }
 
 /* line 4, ../../Arafath/CL/December/236. Event-02/HTML/scss/_slider.scss */
