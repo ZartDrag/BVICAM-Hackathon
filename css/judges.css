@@ -15,6 +15,7 @@
     gap: 1em;
    /* width: 100%; */
 }
+
 /* .yatin{
 	display: grid;
 	grid-template-columns: repeat(3 ,1fr) !important;
@@ -22,6 +23,10 @@
 	justify-content: center;
 	margin-left: 10%;
 } */
+
+.title .author .mobile{
+	color:white !important;
+}
 
 .event-schedule .jhand h1{
     text-align: center !important;
@@ -69,7 +74,7 @@
 }
  .panels .panel .background:after {
 	 opacity: 0.4;
-	 background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 20%, rgba(23, 86, 181, 0.6) 70%, rgba(4, 21, 47, 1) 100%);
+	 background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 20%, rgb(0,0,0,0.6) 70%, rgba(255,61,56,0.6) 100%);
 }
  .panels .panel .text {
 	 cursor: default;
@@ -96,15 +101,15 @@
 	 font-size: 0.9em;
 	 margin-bottom: 1.8em;
 }
-/* .panels .panel .text .mobile {
+ .panels .panel .text .mobile {
 	font-weight: 200;
 	font-size: 1em;
 	margin-bottom: 1em;
-} */
+} 
  .panels .panel .text .link {
 	 display: inline-block;
 	 padding: 0.3em 0.5em;
-	 background: #1a61cb;
+	 background: #FF4533;
 	 text-align: center;
 	 opacity: 0;
 	 font-size: 0.9em;
@@ -115,7 +120,7 @@
 	padding: 0 !important;
 }
  .panels .panel.hover, .panels .panel:hover {
-	 outline: 0.875em solid #1a61cb;
+	 outline: 0.875em solid #FF4533;
 	 transition: 300ms;
 }
  .panels .panel.hover .background, .panels .panel:hover .background {
@@ -146,4 +151,15 @@
  .panels .panel.hover .text .link, .panels .panel:hover .text .link {
 	 opacity: 1;
 	 transition-delay: 150ms;
+}
+
+.custom-background{
+	background:rgb(0, 0, 0);
+}
+
+.breaker{
+	width:50px;
+	padding:2px;
+	background:white;
+	margin:0 auto;
 }

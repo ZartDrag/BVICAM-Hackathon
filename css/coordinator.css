@@ -70,7 +70,7 @@
 }
  .panels .panelc .background:after {
 	 opacity: 0.4;
-	 background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 20%, rgba(23, 86, 181, 0.6) 70%, rgba(4, 21, 47, 1) 100%);
+	 background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 20%, rgba(255, 69, 51, 0.6) 70%, rgba(4, 21, 47, 1) 100%);
 }
  .panels .panelc .text {
 	 cursor: default;
@@ -94,23 +94,28 @@
 	 font-weight: 700;
 	 font-size: 1em;
 	 margin-bottom: 0.35em;
+	 color:white;
 }
  .panels .panelc .text .author {
 	 font-weight: 400;
 	 font-size: 0.8em;
 	 margin-bottom: 0.35em;
 }
+
+.author,.mobile{
+	color:white;
+}
 .panels .panelc .text .mobile {
 	font-weight: 200;
 	font-size: 0.7em;
 	margin-bottom: 0.175em;
 	font-weight: 500;
-	text-shadow: 0 0 100px rgba(11, 56, 99 , 0.8), 0 0 30px #000;
+	text-shadow: 0 0 100px rgba(255, 255, 255 , 1), 0 0 30px #000;
 }
  .panels .panelc .text .link {
 	 display: inline-block;
 	 padding: 0.1em 0.2em;
-	 background: #1a61cb;
+	 background: #FF4533;
 	 text-align: center;
 	 opacity: 0;
 	 border-radius: 5px;
@@ -124,7 +129,7 @@
 	padding: 0 !important;
 }
  .panels .panelc .hover, .panels .panelc:hover {
-	 outline: 0.875em solid #1a61cb;
+	 outline: 0.875em solid #FF4533;
 	 transition: 300ms;
 }
  .panels .panelc .hover .background, .panels .panelc:hover .background {
@@ -159,7 +164,7 @@
 
 .link:hover{
 	text-decoration: none;
-	color: white;
+	color: white !important;
 }
 .panels .panelc .text .rick {
 	display: inline-block;
