@@ -8,6 +8,10 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,600&display=swap" rel="stylesheet">
+
     <!-- <link rel="manifest" href="site.webmanifest"> -->
     <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
     <!-- Place favicon.ico in the root directory -->
@@ -25,10 +29,18 @@
     <link rel="stylesheet" href="css/flaticon.css">
     <link rel="stylesheet" href="css/slicknav.css">
     <link rel="stylesheet" href="css/judges.css">
-    <link rel="stylesheet" href="css/coordinator.css">
+    <link rel="stylesheet" href="css/Coordinator.css">
     <link rel="stylesheet" href="css/mobile.css">
 
     <script defer src="./js/timer.js"></script>
+
+    <style type="text/css"> 
+    @media only screen and (max-width: 600px) {
+        .custom-logo{
+            width:117px;
+        }
+    }
+    </style>
 
     <link rel="stylesheet" href="css/style.css">
     <!-- <link rel="stylesheet" href="css/responsive.css"> -->
@@ -39,21 +51,20 @@
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
         <![endif]-->
 
-    <!-- header-start -->
     <header>
         <div class="header-area ">
             <div id="sticky-header" class="main-header-area">
                 <div class="container">
                     <div class="header_bottom_border">
                         <div class="row align-items-center">
-                            <div class="col-xl-3 col-lg-3">
+                            <div class="col-xl-4 col-lg-4">
                                 <div class="logo">
-                                    <a href="#">
-                                        <img src="img/logo-40x40.png" alt="">
+                                    <a href="index.html">
+                                        <img class="custom-logo mt-md-3 mt-0" src="img/logo-main.png" width="250" alt="">
                                     </a>
                                 </div>
                             </div>
-                            <div>
+                            <div class="col-xl-8 col-lg-8">
                                 <div class="main-menu  d-none d-lg-block">
                                     <nav>
                                         <ul id="navigation">
@@ -63,14 +74,17 @@
                                             <li><a href="#judge-section">Judges</a></li>
                                             <li><a href="#coods">Co-ordinators</a></li>
                                             <li><a href="#faq-section">FAQs</a></li>
-                                            <li><a href="#map">Map</a></li>                                            
+                                            <li><a href="#map">Map</a></li>      
                                         </ul>
                                     </nav>
                                 </div>
-                            </div>                            
+                            </div>
+
                             <div class="col-12">
                                 <div class="mobile_menu d-block d-lg-none"></div>
                             </div>
+                            
+                            
                         </div>
                     </div>
 
@@ -78,7 +92,6 @@
             </div>
         </div>
     </header>
-    <!-- header-end -->
 
     <!-- slider_area_start -->
     <div class="slider_area">
@@ -96,6 +109,7 @@
                             <span class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".3s">BVICAM'S</span>
                             <h3 class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".4s">Hack-BVICAM  4.0</h3>
                             <span class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".3s">17th March 2023</span>
+                            <p style="font-family: 'playfair display',serif; font-size:50px;" class="wow fadeInLeft mt-md-3 mt-0" data-wow-duration="1s" data-wow-delay=".3s">Prices Worth ₹ 1 LAC</p>
                             <!-- <p class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".5s">May the Code Flow~</p>                             -->
                         </div>
 
@@ -429,7 +443,7 @@
     <section id="coods" class="noodes section judge-section custom-background">
         <div class="container p-3">
             <div class="event-schedule">
-            <h1 class="animated flip delay-2s text-white text-center" style="font-size:72px;">CO-ORDINATORS</h1>
+            <h1 class="animated flip delay-2s text-white text-center" style="font-size:36px;">CO-ORDINATORS</h1>
             <div class="breaker my-4"></div>
             </div>
             <div class="panels yatin">
