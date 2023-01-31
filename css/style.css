@@ -1213,6 +1213,13 @@ h3 {
   text-transform: capitalize;
 }
 
+ .reg-button{
+  display : none;
+}
+.newRegister{
+  align-items: center;
+}
+
 @media (min-width: 992px) and (max-width: 1200px) {
   /* line 100, ../../Arafath/CL/December/236. Event-02/HTML/scss/_header.scss */
   .header-area .main-header-area .buy_tkt .book_btn a {
@@ -1292,6 +1299,7 @@ h3 {
   .header-area .main-header-area .main-menu ul li a i {
     display: none !important;
   }
+
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -1398,10 +1406,45 @@ h3 {
   background: #000;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 993px) {
   /* line 241, ../../Arafath/CL/December/236. Event-02/HTML/scss/_header.scss */
   .header-area .main-header-area.sticky {
     padding: 10px 10px;
+  }
+
+  .reg-button{
+    width: 50%;
+    display: block;
+    background: #FF4533;
+    font-family:inherit !important;
+    padding: 12px 46px;
+    font-size: 16px;
+    font-weight: 400;
+    border: 1px solid transparent;
+    color: #fff !important;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    text-transform: capitalize;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding-left: 3px;
+    padding-right: 3px;
+    width: 40%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+    
+  }
+
+  .reg-button .book_btn a{
+    color: white;
+    cursor: pointer;
+    font-weight:600;
+    text-transform:uppercase;
+  }
+  .newRegister{
+    align-items: center;
   }
 }
 
